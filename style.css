@@ -60,3 +60,33 @@ body {
 h2 {
     margin-bottom: 20px;
 }
+
+#certifications {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    background: #161b22;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cert-card img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.cert-card h3 {
+    color: #58a6ff;
+}

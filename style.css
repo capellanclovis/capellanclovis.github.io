@@ -1,1 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: #0d1117;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero h2 {
+    color: #58a6ff;
+}
+
+.hero p {
+    max-width: 700px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #238636;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.about,
+#projects,
+#contact {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}

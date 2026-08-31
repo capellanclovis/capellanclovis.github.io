@@ -63,7 +63,7 @@ h2 {
 .cert-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 5px;
     align-items: stretch;
 }
 

@@ -11,29 +11,30 @@ body {
 }
 
 .hero {
-    min-height: 100vh;
-    padding: 60px 20px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: clamp(2.5rem, 7vw, 0rem);
+    font-size: 4rem;
 }
 
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.hero h2 {
+    color: #58a6ff;
+}
+
+.hero p {
+    max-width: 700px;
 }
 
 .buttons a {
     display: inline-block;
-    margin: 0px;
+    margin: 10px;
     padding: 12px 24px;
     background: #238636;
     color: white;
@@ -52,18 +53,18 @@ body {
 .card {
     background: #161b22;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
 h2 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .cert-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    gap: 25px;
     align-items: stretch;
 }
 
@@ -80,7 +81,7 @@ h2 {
     height: 120px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 0px auto;
+    margin: 0 auto 15px auto;
 }
 
 .cert-card h3 {

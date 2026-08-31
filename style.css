@@ -11,7 +11,8 @@ body {
 }
 
 .hero {
-    height: 10vh;
+    min-height: 100vh;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,20 +22,18 @@ body {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 7vw, 4rem);
 }
 
-.hero h2 {
-    color: #58a6ff;
-}
-
-.hero p {
-    max-width: 700px;
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .buttons a {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 12px 24px;
     background: #238636;
     color: white;

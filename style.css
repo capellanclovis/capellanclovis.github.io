@@ -11,25 +11,24 @@ body {
 }
 
 .hero {
-    height: 10vh;
+    min-height: 100vh;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 7vw, 4rem);
 }
 
-.hero h2 {
-    color: #58a6ff;
-}
-
-.hero p {
-    max-width: 700px;
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .buttons a {
